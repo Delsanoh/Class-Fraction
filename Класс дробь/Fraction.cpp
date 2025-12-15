@@ -2,8 +2,8 @@
 #include <sstream>
 #include <cmath>
 #include <limits>
-#include <cstdlib>
-#include <algorithm>
+#include <cstdlib> 
+#include <cstdint> 
 
 bool Fraction::willAdditionOverflow(int64_t a, int64_t b) {
     if (b > 0) {
